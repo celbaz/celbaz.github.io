@@ -1247,6 +1247,7 @@ html[xmlns] .slides {
 .flex-direction-nav .flex-next {
   right: -20px;
   text-align: right;
+  color: white;
 }
 
 /* line 164, ../../../src/assets/scss/partials/_flexslider.scss */
