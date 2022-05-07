@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  max-width: 1130px;
+  margin: auto;
+  padding: 0px 200px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.personal-description {
+  font-family: monospace;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.link-container {
+  margin: 1em 0em;
+  text-align: center;
+}
+
+
+.link-item {
+  width: 28px;
+  height: 28px;
+}
+
+
+@media (max-width: 960px) {
+  body {
+    padding: 0px 50px;
+  }
+
+  .personal-description {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .link-item {
+    width: 24px;
+    height: 24px;
+  }
+}
